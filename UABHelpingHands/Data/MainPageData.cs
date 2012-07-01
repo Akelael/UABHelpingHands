@@ -192,7 +192,7 @@ namespace UABHelpingHands.Data
             helpGroup.Items.Add(new SampleDataItem("Redes",
                     "Redes",
                     "Redes 1 y 2, Transmisión de datos",
-                    "Assets/LightGray.png",
+                    "Assets/xarxes.jpg",
                     "Item Description: Pellentesque porta, mauris quis interdum vehicula, urna sapien ultrices velit, nec venenatis dui odio in augue. Cras posuere, enim a cursus convallis, neque turpis malesuada erat, ut adipiscing neque tortor ac erat.",
                     ITEM_CONTENT,
                     helpGroup));

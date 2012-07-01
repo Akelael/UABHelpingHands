@@ -67,7 +67,7 @@ namespace UABHelpingHands
                 // When the navigation stack isn't restored navigate to the first page,
                 // configurar la nueva página al pasar la información requerida como parámetro
                 // de navegación.
-                if (!rootFrame.Navigate(typeof(MainPage), "AllGroups"))
+                if (!rootFrame.Navigate(typeof(MainPage)))
                 {
                     throw new Exception("Failed to create initial page");
                 }
