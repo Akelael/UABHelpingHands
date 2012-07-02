@@ -13,7 +13,7 @@
         <TextBlock x:Name="Nombre" HorizontalAlignment="Left" Margin="120.895,442,0,0" TextWrapping="Wrap" Text="Carlos" VerticalAlignment="Top" Height="43" Width="180" FontSize="14.667"/>
         <TextBlock x:Name="Apellidos" HorizontalAlignment="Left" Margin="120.895,490,0,0" TextWrapping="Wrap" Text="Sobera" VerticalAlignment="Top" Height="43" Width="180" FontSize="14.667"/>
         <TextBlock x:Name="Creditos" HorizontalAlignment="Left" Margin="470.149,116.418,0,0" TextWrapping="Wrap" Text="Total de Creditos 500" VerticalAlignment="Top" Height="43.015" Width="330" FontSize="14.667"/>
-        <TextBlock x:Name="ReputacionT" HorizontalAlignment="Left" Margin="470,181,0,0" TextWrapping="Wrap" Text="Reputación total 400" VerticalAlignment="Top" Height="44" Width="330" FontSize="14.667"/>
+        <TextBlock x:Name="ReputacionT" HorizontalAlignment="Left" Margin="470,181,0,0" TextWrapping="Wrap" Text="Reputación total 2000" VerticalAlignment="Top" Height="44" Width="330" FontSize="14.667"/>
 
         <ScrollViewer HorizontalAlignment="Left" Height="418" Margin="470,245,0,0" VerticalAlignment="Top" Width="329.851">
             <ListView x:Name="ListRep" Height="418" Width="330"

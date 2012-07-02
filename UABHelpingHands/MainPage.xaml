@@ -8,28 +8,30 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox x:Name="niuLoginTB" HorizontalAlignment="Left" Margin="102.491,106.312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
-        <TextBlock HorizontalAlignment="Left" Margin="102.491,88.312,0,0" TextWrapping="Wrap" Text="NIU" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="102.491,143.312,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="passLoginTB" HorizontalAlignment="Left" Margin="102.491,161.312,0,0" VerticalAlignment="Top" Width="195"/>
-        <TextBlock x:Name="loginTX" HorizontalAlignment="Left" Margin="166.491,55,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Height="34" Width="131"/>
-        <TextBlock HorizontalAlignment="Left" Margin="166.491,255,0,0" TextWrapping="Wrap" Text="Registrar" VerticalAlignment="Top"/>
-        <TextBox x:Name="regNIUTB" HorizontalAlignment="Left" Margin="101.491,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
-        <TextBlock HorizontalAlignment="Left" Margin="102.491,272,0,0" TextWrapping="Wrap" Text="NIU" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="102.491,327,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="pass1RegTB" HorizontalAlignment="Left" Margin="101.491,345,0,0" VerticalAlignment="Top" Width="195"/>
-        <PasswordBox x:Name="pass2RegTB" HorizontalAlignment="Left" Margin="102.491,400,0,0" VerticalAlignment="Top" Width="195"/>
-        <TextBlock HorizontalAlignment="Left" Margin="101.491,382,0,0" TextWrapping="Wrap" Text="Repetir Password" VerticalAlignment="Top" Width="159"/>
-        <Button x:Name="loginButton" Content="Login" HorizontalAlignment="Left" Margin="166.491,198.312,0,0" VerticalAlignment="Top" Click="loginButtonClick"/>
-        <Button x:Name="regButton" Content="Registrar" HorizontalAlignment="Left" Margin="144.491,568,0,0" VerticalAlignment="Top" Click="regButton_Click"/>
+    <Grid Background="#FF3564B6">
+        <TextBox x:Name="niuLoginTB" HorizontalAlignment="Left" Margin="183.182,311.065,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
+        <TextBlock HorizontalAlignment="Left" Margin="183.172,293.065,0,0" TextWrapping="Wrap" Text="NIU" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="183.172,348.065,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passLoginTB" HorizontalAlignment="Left" Margin="183.182,366.065,0,0" VerticalAlignment="Top" Width="195"/>
+        <TextBox x:Name="regNIUTB" HorizontalAlignment="Left" Margin="736.31,311.17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
+        <TextBlock HorizontalAlignment="Left" Margin="737.152,293.17,0,0" TextWrapping="Wrap" Text="NIU" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="737.152,348.17,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="pass1RegTB" HorizontalAlignment="Left" Margin="736.31,366.17,0,0" VerticalAlignment="Top" Width="195"/>
+        <PasswordBox x:Name="pass2RegTB" HorizontalAlignment="Left" Margin="737.31,421.17,0,0" VerticalAlignment="Top" Width="195"/>
+        <TextBlock HorizontalAlignment="Left" Margin="736.31,403.17,0,0" TextWrapping="Wrap" Text="Repetir Password" VerticalAlignment="Top" Width="159"/>
+        <Button x:Name="loginButton" Content="Login" HorizontalAlignment="Left" Margin="247.172,403.065,0,0" VerticalAlignment="Top" Click="loginButtonClick"/>
+        <Button x:Name="regButton" Content="Registrar" HorizontalAlignment="Left" Margin="779.152,589.17,0,0" VerticalAlignment="Top" Click="regButton_Click"/>
         <Popup x:Name="popUpNot"/>
-        <TextBlock x:Name="regRes" HorizontalAlignment="Left" Margin="193.491,658,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="102.491,437,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
-        <TextBox x:Name="regNameTB" HorizontalAlignment="Left" Margin="102.491,455,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
-        <TextBlock HorizontalAlignment="Left" Margin="102.491,492,0,0" TextWrapping="Wrap" Text="Apellidos" VerticalAlignment="Top"/>
-        <TextBox x:Name="regSurnameTB" HorizontalAlignment="Left" Margin="101.491,510,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
-        <TextBlock x:Name="loginRes" HorizontalAlignment="Left" Margin="263.491,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="regRes" HorizontalAlignment="Left" Margin="824.991,646,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="737.152,458.17,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
+        <TextBox x:Name="regNameTB" HorizontalAlignment="Left" Margin="737.31,476.17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
+        <TextBlock HorizontalAlignment="Left" Margin="737.152,513.17,0,0" TextWrapping="Wrap" Text="Apellidos" VerticalAlignment="Top"/>
+        <TextBox x:Name="regSurnameTB" HorizontalAlignment="Left" Margin="736.31,531.17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
+        <TextBlock x:Name="loginRes" HorizontalAlignment="Left" Margin="282.991,458.17,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="121.672,58.5,0,0" Style="{StaticResource HeaderTextStyle}" TextWrapping="Wrap" Text="UAB HelpingHands" VerticalAlignment="Top" Height="92" Width="841"/>
+        <RichTextBlock HorizontalAlignment="Left" Height="0" Margin="168,88.5,0,0" Style="{StaticResource ItemRichTextStyle}" VerticalAlignment="Top" Width="15.172"/>
+        <TextBlock x:Name="loginTX" HorizontalAlignment="Left" Margin="229.5,230.5,0,0" Style="{StaticResource SubheaderTextStyle}" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Height="36" Width="78.5"/>
+        <TextBlock HorizontalAlignment="Left" Margin="768,232.754,0,0" Style="{StaticResource SubheaderTextStyle}" TextWrapping="Wrap" Text="Registrar" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

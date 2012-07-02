@@ -135,19 +135,33 @@
     <None Include="UABHelpingHands_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Arqui.jpg" />
+    <Content Include="Assets\ayuda.jpg" />
     <Content Include="Assets\bean.jpg" />
     <Content Include="Assets\Carlos.jpg" />
+    <Content Include="Assets\cola.jpg" />
+    <Content Include="Assets\compiler.jpg" />
     <Content Include="Assets\DarkGray.png" />
+    <Content Include="Assets\database.png" />
+    <Content Include="Assets\descuento.jpg" />
+    <Content Include="Assets\engineer.png" />
+    <Content Include="Assets\help.png" />
     <Content Include="Assets\LightGray.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\mas.jpg" />
     <Content Include="Assets\MediumGray.png" />
     <Content Include="Assets\napoleon.jpeg" />
+    <Content Include="Assets\pi.png" />
+    <Content Include="Assets\practicas.png" />
+    <Content Include="Assets\programacion.png" />
     <Content Include="Assets\rajoy.jpg" />
+    <Content Include="Assets\recargar.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\tiempo.jpg" />
     <Content Include="Assets\wally.jpg" />
+    <Content Include="Assets\Win8logo.png" />
     <Content Include="Assets\xarxes.jpg" />
     <Content Include="Common\ReadMe.txt" />
   </ItemGroup>

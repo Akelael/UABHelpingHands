@@ -226,7 +226,7 @@ namespace UABHelpingHands.Data
             group1.Items.Add(new SampleDataItem2("Group-1-Item-1",
                     "Nombre: Carlos Sobera",
                     "Especialidades: Redes, IA.",
-                    "Assets/Carlos.jpg"," Está en 4º curso de Ingeniería Informática. Ofrece su ayuda a todo el que lo necesite.",5,200,"Niu1",
+                    "Assets/Carlos.jpg"," Está en 4º curso de Ingeniería Informática. Ofrece su ayuda a todo el que lo necesite.",5,2000,"1",
                     ITEM_CONTENT,
                     group1));
 
@@ -237,7 +237,7 @@ namespace UABHelpingHands.Data
                     "Especialidades: Lógica Computacional, IA, Algoritmos de Programación.",
                     "Assets/wally.jpg",
                     "Descripción: Una persona cuya calidad principal es la seriedad. Es fácil encontrárlo, debido a la gran disponibilidad. Ha alcanzado 4º curso de Ingeniería Informatica.",
-                    100,300,"Niu2",
+                    100,1600,"2",
                     ITEM_CONTENT,
                     group1));
 
@@ -246,7 +246,7 @@ namespace UABHelpingHands.Data
                     "Especialidades: Economia de la Empresa, Legislación Informatica, Ética para Ingenieros.",
                     "Assets/rajoy.jpg",
                     "Descripción: A pesar de lo que pueda parecer, lo que mejor se le da es la economia y la legislación.",
-                    300,100,"Niu3",
+                    300,700,"3",
                     ITEM_CONTENT,
                     group1));
             group1.Items.Add(new SampleDataItem2("Group-1-Item-4",
@@ -254,7 +254,7 @@ namespace UABHelpingHands.Data
                     "Especialidades: Fundamentos de Computadores, Métodos de Cálculo Numérico, Herramientas de Cálculo Simbólico.",
                     "Assets/napoleon.jpeg",
                     "Descripción: Alumnno de 3er curso, con matrícula de honor en sus especialidades.",
-                    1000,654,"Niu4",
+                    1000,654,"4",
                     ITEM_CONTENT,
                     group1));
             this.AllGroups.Add(group1);

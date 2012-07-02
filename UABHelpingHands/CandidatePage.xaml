@@ -221,13 +221,7 @@
                 Click="GoBack"
                 IsEnabled="{Binding DefaultViewModel.CanGoBack, ElementName=pageRoot}"
                 Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Style="{StaticResource PageHeaderTextStyle}" RenderTransformOrigin="0.629999995231628,0.550000011920929">
-            	<Run Text="Mentores"/>
-            	<LineBreak/>
-            	<Run/>
-            	<LineBreak/>
-            	<Run/>
-            </TextBlock>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Style="{StaticResource PageHeaderTextStyle}" RenderTransformOrigin="0.629999995231628,0.550000011920929" Text="Mentores"/>
         </Grid>
 
         <!-- Lista de elementos de desplazamiento vertical -->
